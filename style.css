@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+header {
+    height: 101px;
+    position: fixed;
+    color: blueviolet;
+    background-color: #fff;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    gap: 0 50px;
+}
+
+.menu a {
+    font-family: "Outfit", sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: #0e0a23;
+    text-transform: capitalize;
+}
+
+button {
+    padding: 14px 26px;
+    font-size: 16px;
+    border: 0px;
+    color: #fff;
+    background-color: #0e0a23;
+    border-radius: 35px;
+    font-weight: 500;
+    font-family: "outfit", sans-serif;
+    margin-top: 30px;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+}
+
+.herosection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+
+    width: 50%;
+    padding: 0 10%;
+}
+
+.herosection h1 {
+    text-transform: uppercase;
+    font-size: 72px;
+    color: #0e0a23;
+    margin: 0;
+}
+
+.herosection p {
+    font-size: 16px;
+    color: #0e0a23;
+    line-height: 25.6px;
+}
+
+.imgsection {
+    width: 45%
+}
+
+.imgsection img{
+    width: 470px;
+    
+}
+
